@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Frenet-Frame Model Predictive Motion Controller for Curvature-Constrained Skid-Steer Robots"
 ---
 
 
