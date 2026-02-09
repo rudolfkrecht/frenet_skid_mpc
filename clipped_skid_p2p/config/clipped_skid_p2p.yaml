@@ -1,0 +1,29 @@
+clipped_skid_p2p:
+  ros__parameters:
+    path_topic: /micro_waypoints_path
+    cmdvel_topic: /cmd_vel
+    base_frame: base_link
+
+    rate_hz: 20.0
+
+    v_nom: 0.22
+    v_align: 0.12
+    eps_theta: 0.25
+    theta_realign: 0.90
+    eps_dist: 0.40
+    reach_radius: 0.25
+
+    v_stop_thresh: 0.05
+
+    R_min: 0.70
+    curv_scale: 1.0
+    r_max: 1.2
+
+    dv_max: 0.6
+    dv_min: 1.0
+    dw_max: 1.2
+
+    behind_x_thresh: 0.05
+    max_skip_per_step: 6
+
+    stop_at_end: true

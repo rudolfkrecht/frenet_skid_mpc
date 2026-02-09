@@ -1,0 +1,22 @@
+dynamic_uniform_spline_publisher:
+  ros__parameters:
+    waypoints_topic: /waypoints
+    path_topic: /generated_path
+    path_marker_topic: /generated_path_marker
+    wp_marker_topic: /waypoints_marker
+    feas_marker_topic: /feasibility_marker
+    vref_topic: /v_ref
+    frame_id: map
+
+    samples_per_meter: 60.0
+    base_tangent_gain: 1.0
+    line_width: 0.06
+
+    a_r: 1.2
+    b_r: 0.3
+    tau_delta_max: 80.0
+    eta: 0.7
+
+    v_max: 1.0
+    v_min: 0.5
+    a_long_max: 0.4
