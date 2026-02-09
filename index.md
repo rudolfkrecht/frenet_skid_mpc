@@ -3,9 +3,8 @@ layout: default
 ---
 <div style="text-align: center;">
 
-# Frenet-Frame Model Predictive Motion Controller for Curvature-Constrained Skid-Steer Robots
 
-Rudolf Krecht, Áron Ballagi
+
 
 Széchenyi István University
 
@@ -24,8 +23,8 @@ This paper presents a Frenet-frame model predictive motion controller for curvat
 
 ## Links
 - 📄 **Paper (PDF)**: [Download](paper.pdf)
-- 💻 **Code**: https://github.com/USERNAME/REPO
-- 📊 **Dataset**: (optional)
+- 💻 **Code**: https://github.com/rudolfkrecht/frenet_skid_mpc
+- 📊 **Dataset**: https://github.com/rudolfkrecht/frenet_skid_mpc/tree/main/datasets
 
 ---
 
