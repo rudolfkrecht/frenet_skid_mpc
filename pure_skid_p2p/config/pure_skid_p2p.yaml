@@ -1,0 +1,11 @@
+pure_skid_p2p:
+  ros__parameters:
+    path_topic: /micro_waypoints_path
+    cmdvel_topic: /cmd_vel
+    base_frame: base_link
+    rate_hz: 20.0
+
+    v_nom: 0.22
+    k_w: 1.8
+    reach_radius: 0.25
+    stop_at_end: true
