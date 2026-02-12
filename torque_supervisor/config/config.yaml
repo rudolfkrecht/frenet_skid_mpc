@@ -1,0 +1,29 @@
+torque_supervisor:
+  ros__parameters:
+    # Topics
+    cmdvel_in_topic: /cmd_vel_frenet
+    odom_topic: /odom
+    cmdvel_out_topic: /cmd_vel
+    torque_est_topic: /torque_est
+
+    # Timing
+    rate_hz: 20.0
+    Ts: 0.05   # set <=0 to compute from rate_hz
+
+    # Model parameters
+    a_v: 0.0
+    b_v: 1.0
+    f_c: 0.0
+    v_eps: 0.05
+
+    a_r: 0.0
+    b_r: 1.0
+
+    # Torque limits
+    tau_side_max: 999.0
+    tau_sum_max: 999.0
+    tau_diff_max: 999.0
+
+    # Command limits
+    v_max: 0.30
+    w_max: 1.50
